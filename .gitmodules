@@ -1,0 +1,3 @@
+[submodule "Hotkeys"]
+	path = Hotkeys
+	url = https://github.com/Hate9/Hotkeys.git

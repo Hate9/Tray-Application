@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 using System.Linq;
+using Hate9;
 
 namespace Tray_Application
 {

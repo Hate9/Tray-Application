@@ -67,9 +67,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Hotkeys.cs">
+    <Compile Include="Hotkeys\Hotkeys.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Hotkeys\Identification\Identification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -93,10 +94,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Application.cs" />
-    <Compile Include="Identification\Identification.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="AppIcon.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
